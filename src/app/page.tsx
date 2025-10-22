@@ -47,9 +47,7 @@ export default function Home() {
       </header>
       <section className="w-full h-full   ">
         <div className="container mx-auto flex items-center flex-col  gap-10">
-          <div className=" max-w-[800px]  h-[557px] p-4 mx-auto  flex ">
-            <Contact />
-          </div>
+          
           <div className="w-full h-full  flex flex-col p-4 items-center mt-10 lg:flex-row lg:justify-between  lg:mt-36">
             <h2 className="w-full text-3xl  text-left  lg:max-w-[50%] lg:text-5xl">
               {landContent.section_1.title}
@@ -125,13 +123,15 @@ export default function Home() {
         style={{ backgroundImage: `url(${landContent.section_3.image})` }}
       >
         <div className="absolute inset-0 bg-black/50" />
-        <div className="container flex flex-col gap-10 p-4 z-50">
-          <h2 className="text-white  w-full text-3xl max-w-[1000px]  leading-10  lg:text-5xl lg:leading-16 ">
+        <div className="container grid  gap-10 grid-cols-1 p-4 z-50 lg:grid-cols-2">
+          <div className="w-full">
+               <h2 className="text-white  w-full text-3xl max-w-[1000px]  leading-10  lg:text-5xl lg:leading-13 ">
             {landContent.section_3.title}
           </h2>
-          <button className="w-[290px] py-4 bg-bgBtn rounded-full text-white  lg:w-[450px] lg:rounded-md">
-            {landContent.btnsText.specialist}
-          </button>
+      
+          </div>
+          <Contact/>
+       
         </div>
       </section>
       <section className="w-full h-full  flex flex-col items-center justify-center    ">
