@@ -179,7 +179,7 @@ Revelar nulidades e prescrições é lutar por processos mais justos, transparen
   btnsText: {
     color: "#3782FF",
     contact: "Entre em contato",
-    specialist: "Solicite Análise Gratuita",
+    specialist: "Agende Consulta",
     redirect: "Visite nosso site",
     icons: "",
   },
