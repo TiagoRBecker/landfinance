@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+
+@theme inline {
+  --color-bgBtn:#3782FF;
+  --color-bgSection:#001D36;
+}
+
+
