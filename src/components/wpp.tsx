@@ -41,7 +41,7 @@ export function WhatsAppButton({
       // Tema principal
       `Gostaria de um atendimento sobre o seguinte tema: ${values.course}.` +
       // Descrição de Ajuda (com quebra dupla para separação visual)
-      `ADescrição de ajuda: ${values.description}` +
+      `Descrição de ajuda: ${values.description}` +
       // Finalização
       `Por favor, aguardo o contato.`;
     const formattedPhone = formatPhoneNumber(phoneNumber);
@@ -125,7 +125,7 @@ export function WhatsAppButton({
               }
               type="text"
               className="w-full h-8 outline-none border-[1px] border-gray-400 rounded-md pl-3 placeholder:text-[10px]"
-              placeholder="Em qual concurso/prova foi indeferido as cotas ?"
+              placeholder="Em que ano começou a cobrança equalo tipo de dívida em questão?"
             />
             <textarea
               name="description"
