@@ -10,7 +10,7 @@ export const landContent = {
   section_1: {
     title: "Dívida Antiga? Nulidade e Prescrição Podem Te Libertar!",
     content:
-      `Muitos processos de cobrança e execução judicial avançaram, mesmo contendo nulidades graves ou quando a dívida já está prescrita, inclusive aintercorrente. Tais vícios jurídicos são complexos e muitas vezes invisíveissem uma análise aprofundado. Apenas advogados com expertise técnica eEstratégia estratégica identificar essas falhas ocultas, que são a chave paracobranças anulares indevidas ou extinguir sua dívida. Permita que nossa equipeespecializada revisar seu processo e fazer valer seusdireitos.`,
+      `Muitos processos de cobrança e execução judicial avançam, mesmo contendo nulidades graves ou quando a dívida já está prescrita, inclusive a intercorrente. Tais vícios jurídicos são complexos e frequentemente invisíveis sem uma análise aprofundada. Apenas advogados com expertise técnica e estratégica conseguem identificar essas falhas ocultas, que são a chave para anular cobranças indevidas ou extinguir sua dívida. Permita que nossa equipe especializada revise seu processo e faça valer seus direitos.`,
 
     movie: "/contato.mp4",
   },
