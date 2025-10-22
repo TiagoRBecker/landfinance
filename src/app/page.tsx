@@ -138,7 +138,7 @@ export default function Home() {
           <h2 className="text-white text-2xl mt-10 lg:text-5xl">
             {landContent.section_4.title}
           </h2>
-          <div className="w-full px-3 gap-6 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 ">
+          <div className="container mx-auto px-3 gap-6 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 ">
             {landContent.section_4.news.map((news, index) => (
               <div
                 className="w-full bg-white  h-[350px]  rounded-md flex flex-col items-center justify-center gap-7  text-white "
@@ -179,10 +179,10 @@ export default function Home() {
           <AccordionGroup />
         </div>
       </section>
-      <section className="w-full h-full">
-        <div className="bg-bgSection w-full h-full  mx-auto lg:rounded-3xl lg:h-[572px]  lg:w-[95%]">
+      <section className="w-full h-full py-20">
+        <div className="bg-bgSection w-full h-full   mx-auto lg:rounded-3xl lg:h-[572px]  lg:w-[95%]">
           <div className="w-full  grid grid-cols-1 p-4 lg:grid-cols-2 lg:container lg:mx-auto ">
-            <div className="w-full -mt-12">
+            <div className="w-full -mt-24 ">
               <Image
                 src={landContent.section_6.image}
                 alt="Alex"
