@@ -12,27 +12,28 @@ const sora = Sora({
 
 
 
-const domain = "www.cotasraciais.guedesbampoi.com.br"
+const domain = "https://cotasraciais.guedesbampoi.com.br"
 export const metadata: Metadata = {
  
-  title: "Advocacia Especializada em Cotas Raciais | Defesa e Recursos",
+  title: "Nulidades e Prescrição em Cobrança e Execução | Defesa Legal",
 
  
   description:
-    "Seu direito às cotas raciais foi negado? Nosso escritório oferece assessoria jurídica completa para recursos administrativos e ações judiciais, garantindo a sua vaga. Consulte um especialista agora.",
+    "Identifique Nulidades e Prescrições em Processos de Cobrança e Execução. Nosso escritório é especializado em estratégias de defesa para devedores e otimização para credores. Consulte um especialista.",
 
-  
+ 
   keywords: [
-    "advogado cotas raciais",
-    "recurso cotas raciais",
-    "banca de heteroidentificação",
-    "negativa cotas faculdade",
-    "escritório de advocacia cotas",
-    "ação judicial cotas raciais",
+    "nulidade processo cobrança",
+    "prescrição intercorrente",
+    "exceção de pré-executividade",
+    "defesa processo execução",
+    "nulidade citação execução",
+    "advogado processo execução",
+    "extinção de execução por prescrição",
   ],
 
   verification: {
-    google: "7ZvCvS9A3nvuxZ-6jB5FKckD77MYeeIMHyaYu6DiERo",
+    google: "7ZvCvS9A3nvuxZ-6jB5FKckD77MYeeIMHyaYu6DiERo", // Manter se for o seu código
   },
   alternates: {
     canonical: "/",
@@ -40,16 +41,17 @@ export const metadata: Metadata = {
 
  
   openGraph: {
-    title: "Defesa Legal em Cotas Raciais: Garanta Sua Vaga",
+    title: "Análise Jurídica: Nulidades e Prescrições em Processos de Dívida",
     description:
-      "Assessoria jurídica especializada para reverter a negativa em bancas de heteroidentificação. Fale com um advogado.",
+      "Assessoria especializada em direito processual para análise e alegação de nulidades, decadência e prescrição em ações de cobrança e execução. Proteja seu patrimônio.",
     url: domain, 
-    siteName: "Nome do Escritório | Advocacia",
+    
+    siteName: "Guedes Bampi Advogados Associados | Advocacia", 
     images: [
       {
-        url: "", // 
+        url: "", // Inserir URL da imagem relevante (ex: jurista analisando documentos ou balança da justiça)
         height: 630,
-        alt: "Advogado defendendo o direito às cotas raciais",
+        alt: "Advogado analisando processo judicial de cobrança e execução",
       },
     ],
     locale: "pt_BR",
@@ -67,6 +69,7 @@ export const metadata: Metadata = {
   },
 
   // 7. Twitter Card (Otimização para Twitter/X)
+  // Adicione se necessário, seguindo o padrão anterior.
  
 };
 
