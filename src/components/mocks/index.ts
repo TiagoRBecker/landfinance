@@ -2,7 +2,7 @@ export const landContent = {
   logo: "/logo.svg",
   header: {
     image: "/hero.svg",
-    title: "Dívida judicial rolando há anos? Consulte especialistas em falhasprocessuais e prescrições!",
+    title: "Dívida judicial rolando há anos? Consulte especialistas em falhas processuais e prescrições!",
     subTitle: " Consulte seus direitos e busque justiça",
     content:
       "Analisamos detalhadamente seus processos de cobrança e execução para identificar nulidades e prescrições, protegendo seu patrimônio.",
@@ -10,7 +10,7 @@ export const landContent = {
   section_1: {
     title: "Dívida Antiga? Nulidade e Prescrição Podem Te Libertar!",
     content:
-      `Muitos processos de cobrança e execução judicial avançaram, mesmocontendo nulidades graves ou quando a dívida já está prescrita, inclusive aintercorrente. Tais vícios jurídicos são complexos e muitas vezes invisíveissem uma análise aprofundado. Apenas advogados com expertise técnica eEstratégia estratégica identificar essas falhas ocultas, que são a chave paracobranças anulares indevidas ou extinguir sua dívida. Permita que nossa equipeespecializada revisar seu processo e fazer valer seusdireitos.`,
+      `Muitos processos de cobrança e execução judicial avançaram, mesmo contendo nulidades graves ou quando a dívida já está prescrita, inclusive aintercorrente. Tais vícios jurídicos são complexos e muitas vezes invisíveissem uma análise aprofundado. Apenas advogados com expertise técnica eEstratégia estratégica identificar essas falhas ocultas, que são a chave paracobranças anulares indevidas ou extinguir sua dívida. Permita que nossa equipeespecializada revisar seu processo e fazer valer seusdireitos.`,
 
     movie: "/contato.mp4",
   },
