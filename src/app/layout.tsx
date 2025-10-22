@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   ],
 
   verification: {
-    google: "7ZvCvS9A3nvuxZ-6jB5FKckD77MYeeIMHyaYu6DiERo", // Manter se for o seu código
+    google: "7ZvCvS9A3nvuxZ-6jB5FKckD77MYeeIMHyaYu6DiERo",
   },
   alternates: {
     canonical: "/",
