@@ -100,10 +100,10 @@ const Contact = () => {
   };
   return (
     <form
-      className="w-full h-full p-2  rounded-md flex flex-col gap-6  items-center justify-center  bg-black/35 backdrop-blur-none lg:p-10 lg:rounded-3xl"
+      className="w-full h-full p-2  rounded-md flex flex-col gap-6  items-center justify-center  bg-black/60 backdrop-blur-none lg:p-10 lg:rounded-3xl"
       onSubmit={handleSubmit}
     >
-      <h2 className=" block text-white text-3xl lg:hidden">Nós podemos ajudar você, entre em contato</h2>
+      <h2 className=" block text-white text-3xl ">Nós podemos ajudar você, entre em contato</h2>
         <div className="relative w-full">
       <input
         value={values.name}
@@ -149,7 +149,7 @@ const Contact = () => {
         name="course"
         type="text"
         className="outline-none bg-white text-black w-full rounded-md h-[50px] pl-5 "
-         placeholder="Em que ano começou a cobrança equalo tipo de dívida em questão?"
+         placeholder="Em que ano começou a cobrança e qual o tipo de dívida em questão?"
         value={values.course}
         onChange={handleChange}
       />
@@ -162,7 +162,7 @@ const Contact = () => {
         type={pending ? "button" : "submit"}
         className="w-full py-4 bg-bgBtn text-white "
       >
-        {pending ? "Aguarde enviando ..." : landContent.btnsText.specialist}
+        {pending ? "Aguarde enviando ..." : "Agende consulta"}
       </button>
     </form>
   );

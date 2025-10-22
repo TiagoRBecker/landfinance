@@ -16,7 +16,7 @@ export const landContent = {
   },
 
   section_2: {
-    title: `Seu primeiro passo começa aqui Estamos prontos!"`,
+    title: `Seu primeiro passo começa aqui. Estamos prontos!`,
     grid: [
       {
         id: 1,
@@ -36,7 +36,7 @@ export const landContent = {
         id: 3,
         title: "Impacto Financeiro Positivo.",
         content:
-          "Focamos em identificar falhasprocessuais para gerar economia substancial, anulandoou pague expressivamente seus subsídios.",
+          "Focamos em identificar falhas processuais para gerar economia substancial, anulando ou pague expressivamente seus subsídios.",
         icon: "/heart.svg",
       },
       {

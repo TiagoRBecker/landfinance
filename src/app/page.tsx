@@ -16,15 +16,17 @@ export default function Home() {
   return (
     <main className="w-full h-full flex flex-col  ">
       <header
-        className="w-full h-full   p-4 bg-cover bg-top  "
+        className="w-full relative  p-4 bg-cover bg-top  lg:h-[800px] "
         style={{ backgroundImage: `url(${landContent.header.image})` }}
       >
-        <div className="container  mx-auto flex h-[100px]   items-center  justify-start  ">
-          <Image src={landContent.logo} alt="" width={250} height={101} />
+       <div className="absolute inset-0 bg-black/30" />
+      
+        <div className="container   mx-auto flex h-[100px]   items-center  justify-start  ">
+          <Image src={landContent.logo} alt="" width={250} height={101} className="z-50" />
         </div>
-        <div className="container grid grid-cols-1    mx-auto gap-6 p-4  lg:grid-cols-2 mt-36 lg:p-0">
-          <div className="w-full flex  gap-6 flex-col items-start justify-center ">
-            <h1 className="text-white font-semibold max-w-[800px] text-2xl md:text-5xl ">
+        <div className=" container grid grid-cols-1    mx-auto gap-6 p-4  lg:grid-cols-2 mt-36 lg:p-0">
+          <div className="w-full flex z-50  gap-6 flex-col items-start justify-center ">
+            <h1 className="text-white font-semibold max-w-[1000px] text-2xl md:text-5xl ">
               {landContent.header.title}
             </h1>
             <p className="w-[336px] h-[30px] text-white bg-white/35 backdrop-blur-none  flex items-center justify-center rounded-md ">
@@ -39,14 +41,13 @@ export default function Home() {
               {landContent.btnsText.specialist}
             </button>
           </div>
-          <div className="hidden  lg:max-w-[670px] w-full lg:h-[557px] mx-auto h-full lg:flex ">
-            <Contact />
-          </div>
+        
         </div>
+      
       </header>
       <section className="w-full h-full   ">
         <div className="container mx-auto flex items-center flex-col  gap-10">
-          <div className="  w-full  h-[557px] p-4 mx-auto  flex lg:hidden ">
+          <div className=" max-w-[800px]  h-[557px] p-4 mx-auto  flex ">
             <Contact />
           </div>
           <div className="w-full h-full  flex flex-col p-4 items-center mt-10 lg:flex-row lg:justify-between  lg:mt-36">
