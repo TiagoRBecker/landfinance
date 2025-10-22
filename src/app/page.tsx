@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <main className="w-full h-full flex flex-col  ">
       <header
-        className="w-full h-full   p-4   "
+        className="w-full h-full   p-4 bg-cover bg-top  "
         style={{ backgroundImage: `url(${landContent.header.image})` }}
       >
         <div className="container  mx-auto flex h-[100px]   items-center  justify-start  ">
@@ -24,7 +24,7 @@ export default function Home() {
         </div>
         <div className="container grid grid-cols-1    mx-auto gap-6 p-4  lg:grid-cols-2 mt-36 lg:p-0">
           <div className="w-full flex  gap-6 flex-col items-start justify-center ">
-            <h1 className="text-white font-semibold max-w-[500px] text-3xl md:text-6xl ">
+            <h1 className="text-white font-semibold max-w-[800px] text-2xl md:text-5xl ">
               {landContent.header.title}
             </h1>
             <p className="w-[336px] h-[30px] text-white bg-white/35 backdrop-blur-none  flex items-center justify-center rounded-md ">
@@ -35,9 +35,9 @@ export default function Home() {
             >
               {landContent.header.content}
             </p>
-         <button className="w-[290px] py-4 bg-bgBtn rounded-full text-white  lg:hidden">
-            {landContent.btnsText.specialist}
-          </button>
+            <button className="w-[290px] py-4 bg-bgBtn rounded-full text-white  lg:hidden">
+              {landContent.btnsText.specialist}
+            </button>
           </div>
           <div className="hidden  lg:max-w-[670px] w-full lg:h-[557px] mx-auto h-full lg:flex ">
             <Contact />
@@ -53,7 +53,7 @@ export default function Home() {
             <h2 className="w-full text-3xl  text-left  lg:max-w-[50%] lg:text-5xl">
               {landContent.section_1.title}
             </h2>
-              <button className="hidden lg:py-4 bg-bgBtn text-white   rounded-md w-[295px]  lg:block  ">
+            <button className="hidden lg:py-4 bg-bgBtn text-white   rounded-md w-[295px]  lg:block  ">
               {landContent.btnsText.contact}
             </button>
           </div>
@@ -120,12 +120,12 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="w-full relative h-screen py-20  bg-cover bg-center flex flex-col items-center justify-end  lg:h-[830px] "
+        className="w-full relative h-screen py-20  flex flex-col items-center justify-end bg-cover bg-center  lg:h-[830px] "
         style={{ backgroundImage: `url(${landContent.section_3.image})` }}
       >
-          <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-black/50" />
         <div className="container flex flex-col gap-10 p-4 z-50">
-          <h2 className="text-white  w-full text-3xl max-w-[1000px]    lg:text-5xl leading-16 ">
+          <h2 className="text-white  w-full text-3xl max-w-[1000px]  leading-10  lg:text-5xl lg:leading-16 ">
             {landContent.section_3.title}
           </h2>
           <button className="w-[290px] py-4 bg-bgBtn rounded-full text-white  lg:w-[450px] lg:rounded-md">
@@ -158,7 +158,9 @@ export default function Home() {
                     </h2>
                   </div>
 
-                  <p className="text-sm text-[#5F6567]  p-3 h-[130px] line-clamp-4">{news.content}</p>
+                  <p className="text-sm text-[#5F6567]  p-3 h-[90px] line-clamp-4 overflow-hidden ">
+                    {news.content}
+                  </p>
                 </Link>
               </div>
             ))}
@@ -242,7 +244,7 @@ export default function Home() {
           <p>Guedes Bampi Advogados</p>
         </div>
       </footer>
-      <WhatsAppButton   phoneNumber="555195391300" />
+      <WhatsAppButton phoneNumber="555195391300" />
     </main>
   );
 }

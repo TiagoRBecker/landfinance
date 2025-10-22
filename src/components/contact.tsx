@@ -149,7 +149,7 @@ const Contact = () => {
         name="course"
         type="text"
         className="outline-none bg-white text-black w-full rounded-md h-[50px] pl-5 "
-         placeholder="Em qual concurso/prova foi indeferido as cotas ?"
+         placeholder="Em que ano começou a cobrança equalo tipo de dívida em questão?"
         value={values.course}
         onChange={handleChange}
       />

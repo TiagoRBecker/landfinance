@@ -1,25 +1,22 @@
 export const landContent = {
   logo: "/logo.svg",
   header: {
-    image: "/bg-header.jpg",
-    title: "Execução judicial? Seus direitos podem mudar tudo!",
+    image: "/hero.svg",
+    title: "Dívida judicial rolando há anos? Consulte especialistas em falhasprocessuais e prescrições!",
     subTitle: " Consulte seus direitos e busque justiça",
     content:
       "Analisamos detalhadamente seus processos de cobrança e execução para identificar nulidades e prescrições, protegendo seu patrimônio.",
   },
   section_1: {
-    title: "Proteja-se contra cobranças indevidas. Faça valer seus direitos.",
+    title: "Dívida Antiga? Nulidade e Prescrição Podem Te Libertar!",
     content:
-      `Se você está sendo cobrado ou executado judicialmente, saiba que nem sempre a cobrança é válida.
-Nossa equipe realiza uma análise minuciosa para identificar nulidades processuais e prescrições que podem anular total ou parcialmente a ação contra você.
-Reunimos fundamentos jurídicos sólidos e provas documentais para garantir que seus direitos sejam respeitados em todas as etapas do processo.
-Conte com nossa experiência e comprometimento para transformar injustiças em soluções legítimas.`,
+      `Muitos processos de cobrança e execução judicial avançaram, mesmocontendo nulidades graves ou quando a dívida já está prescrita, inclusive aintercorrente. Tais vícios jurídicos são complexos e muitas vezes invisíveissem uma análise aprofundado. Apenas advogados com expertise técnica eEstratégia estratégica identificar essas falhas ocultas, que são a chave paracobranças anulares indevidas ou extinguir sua dívida. Permita que nossa equipeespecializada revisar seu processo e fazer valer seusdireitos.`,
 
     movie: "/contato.mp4",
   },
 
   section_2: {
-    title: `Você se identifica com algum desses desafios?"`,
+    title: `Seu primeiro passo começa aqui Estamos prontos!"`,
     grid: [
       {
         id: 1,
@@ -37,9 +34,9 @@ Conte com nossa experiência e comprometimento para transformar injustiças em s
       },
       {
         id: 3,
-        title: "Análise de Alto Impacto Financeiro",
+        title: "Impacto Financeiro Positivo.",
         content:
-          " Nosso objetivo é gerar economia significativa para nossos clientes, anulando ou reduzindo débitos.",
+          "Focamos em identificar falhasprocessuais para gerar economia substancial, anulandoou pague expressivamente seus subsídios.",
         icon: "/heart.svg",
       },
       {
@@ -56,7 +53,7 @@ Com conhecimento, estratégia e atenção aos detalhes, garantimos que seus dire
   section_3: {
     title: `Cada análise é um ato de coragem em defesa do direito.
 Revelar nulidades e prescrições é lutar por processos mais justos, transparentes e equilibrados.`,
-    image: "/bg.jpg",
+    image: "/banner.svg",
   },
   section_4: {
     title: "Últimas Notícias do Assunto",
@@ -64,46 +61,47 @@ Revelar nulidades e prescrições é lutar por processos mais justos, transparen
       {
         id: 1,
         title:
-          "CNU: participante que se declara negro é impedido de acessar sistema de cotas e aciona justiça; entenda o caso",
+          "Prescrição intercorrente em execuções fiscais: STJ cria insegurança",
         content:
-          "O candidato pode conhecer as razões do indeferimento e apresentar provas, documentos e argumentos para contestar a decisão.",
+          "Em 2018, ao julgar o REsp 1.340.553/RS sob a sistemática dos recursos repetitivos, o Superior Tribunal de Justiça firmou cinco teses destinadas a disciplinar a prescrição intercorrente nas execuções fiscais.",
         image: "/bg.svg",
-        link: "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2025/01/17/cnu-participante-que-se-declara-negro-e-impedido-de-acessar-sistema-de-cotas-e-aciona-justica-entenda-o-caso.ghtml",
+        link: "https://www.conjur.com.br/2025-out-17/prescricao-intercorrente-em-execucoes-fiscais-stj-cria-inseguranca/",
       },
       {
         id: 2,
         title:
-          " Aluno aprovado por cotas é barrado em banca da UFG por não ser considerado pardo: 'houve a alegação de que eu tenho cabelo liso e pele clara'",
+          "Por prescrição intercorrente, juíza extingue execução de R$ 4,9 milhões",
         content:
-          "Em casos de dúvida razoável, deve prevalecer o direito do candidato à autodeclaração da identidade racial, conforme entendimento do STF.",
+          "Por prescrição intercorrente, a juíza Ariane Mendes Castro Pinheiro, da 13ª vara Cível de São Luís/MA, extinguiu execução de R$ 4,9 milhões movida por banco contra empresa hoteleira. Segundo a magistrada, embora deferida a penhora de imóvel, não houve comprovação de averbação no cartório.",
+
         image: "/bg.svg",
-        link: "https://g1.globo.com/go/goias/noticia/2025/03/19/aluno-aprovado-por-cotas-e-barrado-em-banca-da-ufg-por-nao-ser-considerado-pardo-houve-a-alegacao-de-que-eu-tenho-cabelo-liso-e-pele-clara.ghtml",
+        link: "https://www.migalhas.com.br/quentes/427572/por-prescricao-intercorrente-juiza-extingue-execucao-de-r-4-9-mi",
       },
       {
         id: 3,
-        title: "Aluna parda perde vaga em Medicina após indeferimento da UFF",
+        title: "Regras sobre prescrição no curso da execução fiscal são constitucionais",
         content:
-          "O candidato pode apresentar pedido de reconsideração ou recurso dentro dos prazos previstos, buscando a revisão da decisão da comissão.",
+          "O Supremo Tribunal Federal (STF) declarou a constitucionalidade das regras que disciplinam a prescrição ocorrida no curso dos processos de execução fiscal (prescrição intercorrente tributária). A decisão unânime do Plenário foi tomada no julgamento do Recurso Extraordinário (RE) 636562, com repercussão geral (Tema 390), na sessão virtual finalizada em 17/2.",
         image: "/bg.svg",
-        link: "https://advocaciareis.adv.br/blog/estudante-parda/",
+        link: "https://noticias.stf.jus.br/postsnoticias/regras-sobre-prescricao-no-curso-da-execucao-fiscal-sao-constitucionais/",
       },
       {
         id: 4,
         title:
-          "‘Violência institucional’: candidatos negros vivem imbróglio no CNU por terem sido rejeitados no sistema de cotas",
+          "Esforços infrutíferos para penhora não interrompem prazo de prescrição intercorrente",
         content:
-          "Caso o recurso administrativo seja negado, o candidato pode recorrer ao Poder Judiciário para anular o ato administrativo e assegurar seu direito à vaga por cotas raciais.",
+          "Termo que descreve a situação em que a parte autora perde a faculdade de exigir judicialmente algum direito subjetivo por conta de sua inércia no decorrer de um processo, especialmente nas execuções, a prescrição intercorrente foi instituída para assegurar a tramitação mais ágil de ações judiciais.",
         image: "/bg.svg",
-        link: "https://www.brasildefato.com.br/2025/01/15/violencia-institucional-candidatos-negros-vivem-imbroglio-no-cnu-por-terem-sido-rejeitados-no-sistema-de-cotas/",
+        link: "https://www.tjsc.jus.br/web/imprensa/-/esforcos-infrutiferos-para-penhora-nao-interrompem-prazo-de-prescricao-intercorrente-",
       },
       {
         id: 5,
         title:
-          "Decreto regulamenta nova Lei de Cotas com critérios diferenciados para negros, indígenas e quilombolas",
+          "Prescrição intercorrente",
         content:
-          "Caso o recurso administrativo seja negado, o candidato pode recorrer ao Poder Judiciário para anular o ato administrativo e assegurar seu direito à vaga por cotas raciais.",
+          "A suspensão da execução pelo prazo de um ano previsto no § 1º do art. 921 do Código de Processo Civil, e consequentemente do prazo prescricional, inicia-se a partir da primeira tentativa infrutífera à localização de bens, em que o credor foi devidamente intimado (Código de Processo Civil, art. 921, §§ 4º e 6º, parte final).   II. A partir desse momento (critério objetivo) inicia o período único (anual) de suspensão do curso do processo executivo e da prescrição, prazo suficiente às concretas medidas de busca a encargo da parte exequente, sendo irrelevante decisão judicial que suspende o processo em momento posterior.  ",
         image: "/bg.svg",
-        link: "https://www.gov.br/gestao/pt-br/assuntos/noticias/2025/junho/decreto-regulamenta-nova-lei-de-cotas-com-criterios-diferenciados-para-negros-indigenas-e-quilombolas",
+        link: "https://www.tjdft.jus.br/consultas/jurisprudencia/jurisprudencia-em-temas/novo-codigo-de-processo-civil/suspensao-da-execucao-e-prescricao-intercorrente",
       },
     ],
   },
