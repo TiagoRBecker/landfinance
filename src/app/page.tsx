@@ -185,13 +185,15 @@ export default function Home() {
       <section className="w-full h-full py-20">
         <div className="bg-bgSection w-full h-full   mx-auto lg:rounded-3xl lg:h-[572px]  lg:w-[95%]">
           <div className="w-full  grid grid-cols-1 p-4 lg:grid-cols-2 lg:container lg:mx-auto ">
-            <div className="w-full -mt-24 ">
-              <Image
-                src={landContent.section_6.image}
-                alt="Alex"
-                width={720}
-                height={720}
-              />
+         <div className="w-full -mt-12 relative">
+                <video
+              src={landContent.section_6.image}
+              loop
+              muted
+              autoPlay
+              playsInline
+              className="max-w-[420px] w-full h-[600px] object-fill  mx-auto   pointer-events-none lg:w-[500px] lg:h-[630px] lg:absolute lg:left-10"
+            ></video>
             </div>
             <div className="w-full flex flex-col mt-10 gap-6 lg:w-[518px] ">
               <h2 className="w-[151px] h-[30px] text-white bg-white/35 backdrop-blur-none  flex items-center justify-center rounded-md">

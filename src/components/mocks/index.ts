@@ -170,11 +170,11 @@ Revelar nulidades e prescrições é lutar por processos mais justos, transparen
   },
 
   section_6: {
-    image: "/alex.svg",
+    image: "/movie.mp4",
     title: "Seu caminho para decisões seguras",
     subTitle: "Quem Somos",
     content:
-      "O Guedes Bampi Advogados é referência em defesas contra cobranças e execuções judiciais e extrajudiciais. Nossa equipe possui vasta experiência na análise minuciosa de processos, identificando nulidades e a ocorrência de prescrições (incluindo a intercorrente), visando a extinção ou revisão de dívidas e a proteção do patrimônio de nossos clientes.",
+      "O Guedes Bampi Advogados atua há mais de 15 anos com excelência, solidez e reconhecimento em demandas judiciais e extrajudiciais. Fundado pelos renomados Dra. Deusa Guedes e Dr. Alex Bampi, o escritório é referência pela atuação ética, técnica e estratégica, garantindo segurança jurídica e confiança a seus clientes. Conheça mais sobre nossa trajetória.",
   },
   btnsText: {
     color: "#3782FF",
