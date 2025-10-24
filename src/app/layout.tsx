@@ -12,7 +12,7 @@ const sora = Sora({
 
 
 
-const domain = "https://cotasraciais.guedesbampoi.com.br"
+const domain = "https://dividas.guedesbampoi.com.br"
 export const metadata: Metadata = {
  
   title: "Nulidades e Prescrição em Cobrança e Execução | Defesa Legal",
